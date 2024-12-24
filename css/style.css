@@ -1,0 +1,101 @@
+
+body{
+    background-color: #272b30;
+    font-family:  cursive;
+}
+
+
+.logo a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    padding: 10px 0;
+}
+.logo a:hover{
+    color: #fff;
+}
+
+.games header{
+    height: 30vh;
+    background-image: url(../imgs/wraper.png);
+    background-position: center;
+    background-size: cover;
+}
+
+nav{
+    background-color: rgb(58, 73, 123);
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+    width: 75%;
+    margin: auto;
+    border-radius: 20px;
+    position: sticky;
+    top: -30px;
+    
+}
+
+nav .list a{
+    font-size: 12.25px;
+    color: #fff;
+    transition: all 0.5s;
+    
+}
+
+nav .list a:hover{
+    color: #09c;
+}
+
+nav .list .nav-item .active{
+    color: #09c;
+}
+
+
+
+
+
+main .card{
+    background-color: transparent;
+    filter: grayscale(0.7);
+    transition: transform 0.5s , filter 0.5s 0.1s;
+    cursor: pointer;
+}
+main .card:hover{
+    filter: grayscale(0);
+    transform:scale(1.05) ;
+}
+
+main img{
+    border-radius: 10px 10px 0 0;
+    
+}
+
+main .desc{
+    font-size: 14px;
+}
+
+main .badge-color{
+    background-color: #32383e;
+}
+
+main .card-footer p{
+    font-size: 10.5px;
+}
+
+
+
+
+.details{
+    color: #fff;
+    min-height: 100vh;
+    background-color: #272729be;
+}
+
+.details i{
+    color: #C8C9CA;
+    cursor: pointer;
+    transition: all 0.5s;
+} 
+.details i:hover{
+    color: #f8fbfb;
+    
+} 
